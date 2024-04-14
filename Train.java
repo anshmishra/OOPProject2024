@@ -8,7 +8,6 @@ public class Train{
     private TypeOfService typeOfService;
 
     //Constructor
-
     public Train(int trainNumber, String route, double fare, int totalSeats, CoachType coachType, TypeOfService typeOfService){
         this.trainNumber=trainNumber;
         this.route=route;
@@ -20,7 +19,6 @@ public class Train{
     }
 
     //Getters and Setters
-
     public int getTrainNumber(){
         return trainNumber;
     }
@@ -65,7 +63,6 @@ public class Train{
     }
 
     //Method to book seat
-
     public boolean bookSeat(){
         if(availableSeats>0){
             availableSeats--;
@@ -77,7 +74,6 @@ public class Train{
     }
 
     //Method to cancel booking
-
     public void cancelSeat(){
         if(availableSeats<totalSeats){
             availableSeats++;
