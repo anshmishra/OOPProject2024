@@ -10,3 +10,6 @@
 /DisabledService.class
 /MilitaryService.class
 /SeniorCitizenService.class
+/BookingStatus.class
+/FileHandler.class
+/Ticket.class
