@@ -1,6 +1,7 @@
 /**
  * Represents a Train with a number, route, fare, totalSeats, availableSeats, coachType and TypeOfService.
  * This class provides methods to get and set train details.
+ * 
  */
 public class Train{
     private int trainNumber;

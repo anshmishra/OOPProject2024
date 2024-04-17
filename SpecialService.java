@@ -1,5 +1,6 @@
 /**
  * Interface to calculate discount fare 
+ * 
  */
 
 public interface SpecialService {

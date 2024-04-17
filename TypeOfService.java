@@ -1,5 +1,6 @@
 /**
- * Defines the accepted types for TypeOfService
+ * Defines the accepted values for TypeOfService
+ * 
  */
 public enum TypeOfService {
     REGULAR, TATKAL

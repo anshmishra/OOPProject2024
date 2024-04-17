@@ -1,5 +1,6 @@
 /**
  * Class to calculate discount fare for senior citizens.
+ * 
  */
 
 public class SeniorCitizenService implements SpecialService {

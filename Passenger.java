@@ -2,8 +2,6 @@
  * Represents a passenger with a name, age, and special service.
  * This class provides methods to get and set passenger details.
  *
- * @author Your Name
- * @version 1.0
  */
 
 public class Passenger {

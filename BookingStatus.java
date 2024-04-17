@@ -1,5 +1,5 @@
 /**
- * Defines the accepted types for BookingStatus
+ * Defines the accepted values for BookingStatus
  */
 
 public enum BookingStatus {
