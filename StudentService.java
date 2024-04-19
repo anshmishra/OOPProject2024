@@ -1,4 +1,5 @@
-public class StudentService implements SpecialService{
+import java.io.Serializable;
+public class StudentService implements SpecialService, Serializable{
     private static final double DISCOUNT_RATE=0.3;
 
     //OVERRIDE

@@ -1,4 +1,5 @@
-public class Train{
+import java.io.Serializable;
+public class Train implements Serializable{
     private int trainNumber;
     private String route;
     private double fare;

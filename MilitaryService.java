@@ -1,4 +1,5 @@
-public class MilitaryService implements SpecialService {
+import java.io.Serializable;
+public class MilitaryService implements SpecialService,Serializable {
     private static final double DISCOUNT_RATE=0.5;
 
     public double calculateDiscount(double fare){
