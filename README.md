@@ -8,7 +8,7 @@ This project implements a Railway Reservation System, facilitating users to book
 2. Cancel booked tickets.
 3. Special discounts for the following categories:
 
-    - Students: 20%
+    - Students: 30%
     - Senior Citizens: 40%
     - Military Personnel: 50%
     - Disabled People: 55%
