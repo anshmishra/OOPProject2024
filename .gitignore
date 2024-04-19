@@ -16,3 +16,6 @@
 /Ticket.class
 /ReservationSystem.class
 /ReservationSystemTest.class
+/Train$Seat.class
+/ReservationSystem$BookingTask.class
+/PassengerTest$PassengerImpl.class

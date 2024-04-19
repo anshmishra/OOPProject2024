@@ -1,10 +1,11 @@
 import java.io.Serializable;
 public class Train implements Serializable{
-    private int trainNumber;
+    private Integer trainNumber; //WRAPPER
     private String route;
     private double fare;
     private int totalSeats;
     private int availableSeats;
+    private Seat[] seats;
     private CoachType coachType;
     private TypeOfService typeOfService;
 
@@ -69,9 +70,8 @@ public class Train implements Serializable{
             availableSeats--;
             return true;
         }
-        else{
-            return false;
-        }
+        else return false;
+        
     }
 
     //Method to cancel booking
@@ -84,5 +84,29 @@ public class Train implements Serializable{
     //OVERRIDE METHOD : toString() for easier printing
     public String toString(){
         return "Train{" +"trainNumber=" + trainNumber +", route='" + route + '\'' +", fare=" + fare +", totalSeats=" + totalSeats +", availableSeats=" + availableSeats +", coachType=" + coachType +", typeOfService=" + typeOfService +'}';
+    }
+    
+    //NESTED CLASS
+    public static class Seat{
+    	private int seatNumber;
+    	private boolean status;
+    	
+    	public Seat (int seatNumber) {
+    		this.seatNumber=seatNumber;
+    		this.status=false;
+    	}
+    	
+    	public int getSeatNumber() {
+    		return seatNumber;
+    	}
+    	public boolean isOccupied() {
+    		return status;
+    	}
+    	public void occupy() {
+    		status=true;
+    	}
+    	public void free() {
+    		status=false;
+    	}
     }
 }

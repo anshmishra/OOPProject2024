@@ -1,5 +1,5 @@
 import java.io.Serializable;
-public class Passenger implements Serializable{
+public abstract class Passenger implements Serializable{
     private String name;
     private int age;
     private SpecialService specialService;
@@ -30,6 +30,7 @@ public class Passenger implements Serializable{
     public void setSpecialService(SpecialService specialService){
         this.specialService=specialService;
     }
+    
 
     //OVERRIDE : toString() for easier printing
     public String toString(){
