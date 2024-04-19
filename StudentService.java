@@ -6,9 +6,9 @@
 
 public class StudentService implements SpecialService{
 	/**
-	 *  Discount rate. Here, it is 20% discount.
+	 *  Discount rate. Here, it is 30% discount.
 	 */
-	private static final double DISCOUNT_RATE=0.2;
+	private static final double DISCOUNT_RATE=0.3;
 
     //OVERRIDE
     /**
