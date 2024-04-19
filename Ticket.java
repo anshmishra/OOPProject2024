@@ -1,3 +1,6 @@
+/**
+ * Represents a ticket for a train journey.
+ */
 import java.io.Serializable;
 
 public class Ticket implements Serializable{
@@ -6,7 +9,14 @@ public class Ticket implements Serializable{
     private Train train;
     private Passenger passenger;
     private BookingStatus bookingStatus;
-    
+       /**
+     * Constructs a new ticket with the given details.
+     *
+     * @param ticketNumber the ticket number
+     * @param train the train associated with the ticket
+     * @param passenger the passenger associated with the ticket
+     * @param bookingStatus the booking status of the ticket
+     */ 
     public Ticket(int ticketNumber, Train train, Passenger passenger, BookingStatus bookingStatus){
         this.ticketNumber=ticketNumber;
         this.train=train;
