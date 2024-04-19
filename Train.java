@@ -1,3 +1,8 @@
+/**
+ * Represents a Train with a number, route, fare, totalSeats, availableSeats, coachType and TypeOfService.
+ * This class provides methods to get and set train details.
+ * 
+ */
 import java.io.Serializable;
 public class Train implements Serializable{
     private Integer trainNumber; //WRAPPER
@@ -10,6 +15,16 @@ public class Train implements Serializable{
     private TypeOfService typeOfService;
 
     //Constructor
+        /**
+     * Constructs a Train object with the given parameters.
+     *
+     * @param trainNumber the train number (int)
+     * @param route the route of the train (String)
+     * @param fare the fare for the train (double)
+     * @param totalSeats the total number of seats in the train (int)
+     * @param coachType the type of coach in the train
+     * @param typeOfService the type of service offered by the train (TATKAL,REGULAR)
+     */
     public Train(int trainNumber, String route, double fare, int totalSeats, CoachType coachType, TypeOfService typeOfService){
         this.trainNumber=trainNumber;
         this.route=route;
