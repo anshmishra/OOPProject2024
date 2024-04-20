@@ -1,5 +1,5 @@
 import java.io.Serializable;
-public abstract class Passenger implements Serializable{
+public class Passenger implements Serializable{ 
     private String name;
     private int age;
     private SpecialService specialService;
