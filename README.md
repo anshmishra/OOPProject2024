@@ -16,7 +16,6 @@ This project implements a Railway Reservation System, facilitating users to book
 4. Tatkal booking option for a limited time.
 5. Displays booking status (Confirmed/Waiting/RAC)
 
-<h2>Classes:-</h2>
 
 <h2>Contributions:- </h2>
 
