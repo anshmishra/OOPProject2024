@@ -1,9 +1,21 @@
+/**
+ * Represents a passenger with a name, age, and special service.
+ * This class provides methods to get and set passenger details.
+ *
+ */
+
 import java.io.Serializable;
 public class Passenger implements Serializable{ 
     private String name;
     private int age;
     private SpecialService specialService;
-
+    /**
+     * Constructs a Passenger object with the given name, age, and special service.
+     *
+     * @param name the name of the passenger
+     * @param age the age of the passenger
+     * @param specialService the special service associated with the passenger
+     */
     //Constructor
     public Passenger(String name, int age, SpecialService specialService){
         this.name=name;
