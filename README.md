@@ -23,7 +23,6 @@ This project implements a Railway Reservation System, facilitating users to book
 2. **Devansh Agrawal (2021A3PS2146G)**
 3. **Srikar Kolukula (2021AAPS2929G)**
 4. **Govind S Nambiar (2021A8PS1527G)**
-5. **Harshit Kapoor (2022A4PS1466G)**
    
 This project was completed by the students of BITS Pilani K. K. Birla Goa Campus under Dr. Anita B. Agrawal.
 
